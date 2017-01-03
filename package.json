@@ -5,6 +5,10 @@
   "license": "MIT",
   "author": "Shopify <dev@shopify.com>",
   "description": "A CLI for converting Shopify’s CoffeeScript to ESNext.",
+  "scripts": {
+    "deploy": "npm run lint && node ./scripts/deploy.js",
+    "lint": "eslint --max-warnings=0 ."
+  },
   "eslintConfig": {
     "extends": [
       "plugin:shopify/es5",
