@@ -3,7 +3,7 @@
   "main": "lib/index.js",
   "version": "15.1.0",
   "license": "MIT",
-  "author": "Bouke van der Bijl <bouke@shopify.com>",
+  "author": "Shopify <dev@shopify.com>",
   "description": "A CLI for converting Shopify’s CoffeeScript to ESNext.",
   "eslintConfig": {
     "extends": [
@@ -19,6 +19,10 @@
     }
   },
   "bin": "./bin/esify",
+  "devDependencies": {
+    "eslint": "3.10.x",
+    "eslint-plugin-shopify": "15.1.0"
+  },
   "dependencies": {
     "babel-register": "^6.16.3",
     "chalk": "^1.1.3",
