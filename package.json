@@ -6,8 +6,8 @@
   "author": "Shopify <dev@shopify.com>",
   "description": "A CLI for converting Shopify’s CoffeeScript to ESNext.",
   "scripts": {
-    "deploy": "npm run lint && node ./scripts/deploy.js",
-    "lint": "eslint --max-warnings=0 ."
+    "lint": "eslint --max-warnings=0 .",
+    "check": "yarn run lint"
   },
   "eslintConfig": {
     "extends": [
