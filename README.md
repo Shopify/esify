@@ -10,7 +10,7 @@ npm install -g esify
 
 ## Limitations
 
-The tools on which `esify` is build have certain limitations that prevent us from providing the ideal conversion in some cases. We strongly recommend you have our linting configuration, [`eslint-plugin-shopify`](../eslint-plugin-shopify), set up for your project before beginning to translate in order to easily identify small translation errors (unused or missing references, indentation, etc). Below is a list of limitations that you should check for in the code you are converting:
+The tools on which `esify` is built have certain limitations that prevent us from providing the ideal conversion in some cases. We strongly recommend you have our linting configuration, [`eslint-plugin-shopify`](../eslint-plugin-shopify), set up for your project before beginning to translate in order to easily identify small translation errors (unused or missing references, indentation, etc). Below is a list of limitations that you should check for in the code you are converting:
 
 - All comments will be removed in the transformed output (including Sprockets directives)
 - CoffeeScript soak calls with embedded methods (e.g., `foo.bar()?.baz`) will compile to JavaScript that is hard to read
